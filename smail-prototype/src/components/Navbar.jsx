@@ -17,7 +17,7 @@ function Navbar() {
                     <input className="rounded-2xl bg-slate-300" type="text" placeholder="Search mail"/>
                     <img className="size-12" src="../public/NavbarImages/manage_search.png" />      
             </div>
-            <div className="size-10 support icon">
+            <div className="size-10 mx-4 support icon">
                 <img src="../public/NavbarImages/help.png"/>
             </div>
             <div className="size-10 settings icon">
@@ -26,7 +26,7 @@ function Navbar() {
             <div className="size-10 google apps icon">
                 <img src="../public/NavbarImages/apps.png" />
             </div>
-            <div className="size-10  flex place-items-end">
+            <div className=" size-10  flex place-items-end justify-end">
                 <img src="../public/NavbarImages/account_circle.png" />
             </div>
         </div>

@@ -3,12 +3,12 @@ import React from 'react'
 function Sidebar() {
   return (
     <div>
-        <div className="m-2 grid gap-y-3 hover:gap justify-inbetween ">
+        <div className="m-2  grid gap-y-3 w-70 ">
             <div className=" flex bg-slate-300 hover:bg-slate-400 rounded-2xl">
                 <img className="size-8"src="SidebarImages/compose.png" alt="" />
                 <p className="w-15 mx-8 ">Compose</p>
             </div>
-            <div className="bg-slate-300 w-40">
+            <div className="w-60  bg-slate-300 ">
                 <div className="size-10 flex ">
                       <img className="size-8 " src="../public/SidebarImages/all mail.png" alt="" /> 
                       <p className=" w-15 mx-8">Inbox</p>
