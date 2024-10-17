@@ -12,9 +12,9 @@ function Navbar() {
                 <img src="../public/NavbarImages/google_icon.png" />
                <h1> Gmail </h1>
             </div>
-            <div className="size-35 relative flex h-0 items-center justify-between">         
+            <div className="size-35 relative flex h-0 items-center justify-between rounded-2xl">         
                     <img className="size-12 p" src="../public/NavbarImages/search.png" />
-                    <input className="bg-slate-500" type="text" placeholder="Search mail"/>
+                    <input className="rounded-2xl bg-slate-300" type="text" placeholder="Search mail"/>
                     <img className="size-12" src="../public/NavbarImages/manage_search.png" />      
             </div>
             <div className="size-10 support icon">
