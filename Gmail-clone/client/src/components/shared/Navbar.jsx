@@ -4,6 +4,7 @@ import { IoIosSearch } from "react-icons/io";
 import { CiCircleQuestion } from "react-icons/ci";
 import { CiSettings } from "react-icons/ci";
 import { TbGridDots } from "react-icons/tb";
+import Avatar from 'react-avatar';
 
 const Navbar = () => {
   return (
@@ -37,6 +38,9 @@ const Navbar = () => {
                 </div>
                 <div className='p-3 rounded-full hover:bg-gray-100 cursor-pointer'>
                     <TbGridDots size={"20px"} />
+                </div>
+                <div className='cursor-pointer'>
+                   <Avatar src="https://media.istockphoto.com/id/1327592506/vector/default-avatar-photo-placeholder-icon-grey-profile-picture-business-man.jpg?s=612x612&w=0&k=20&c=BpR0FVaEa5F24GIw7K8nMWiiGmbb8qmhfkpXcp1dhQg=" size="40" round={true}/>
                 </div>
             </div>
         </div>
