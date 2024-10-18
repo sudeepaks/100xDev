@@ -11,3 +11,5 @@ Currently, two official plugins are available:
 * i react-icons
 * i react-avatar
 * i react-router-dom
+### while setting compose btton
+* npm i @reduxjs/toolkit react-redux (To maintain global state)
