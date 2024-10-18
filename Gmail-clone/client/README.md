@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 ## npm packages
 * i react-icons
 * i react-avatar
+* i react-router-dom
